@@ -9,7 +9,7 @@ import { FloatingActivityComponent } from '../floating-activity/floating-activit
 import { ClockComponent } from '../clock/clock.component';
 import { SearchModalComponent } from '../search-modal/search-modal.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { faTerminal, faCode, faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faTerminal, faCode, faSearch, faDiagramNext } from '@fortawesome/free-solid-svg-icons';
 import { faAngular, faReact, faBootstrap, faPython, faJs, faSass, faHtml5, faCss3Alt, faNodeJs, faGitAlt, faDocker, faGithub, faYoutube, faInstagram, faSteam } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
@@ -53,10 +53,10 @@ export class MainComponent implements OnInit, OnDestroy, AfterViewInit {
   // Typewriter Effect Variables
   public currentQuote: string = '';
   private quotes: string[] = [
-    "The world doesn't need heroes, it needs someone to pull the strings from the shadows.",
-    "I am the one who lurks in the shadows to hunt the shadows.",
-    "I seek neither power nor glory. I only seek to be the Eminence in Shadow.",
-    "True power is not in the light, but in the darkness that swallows it.",
+    "Gamers never die, they spawn.",
+    "Talk is cheap. Show me the code.",
+    "First, solve the problem. Then, write the code.",
+    ""Code is like humor.",
     "The hour of awakening is at hand.",
     "I am Atomic."
   ];
@@ -69,7 +69,7 @@ export class MainComponent implements OnInit, OnDestroy, AfterViewInit {
   public techStack = [
     { name: 'Angular', icon: faAngular, color: '#dd0031' },
     { name: 'React', icon: faReact, color: '#61dafb' },
-    { name: 'Bootstrap', icon: faBootstrap, color: '#7952b3' },
+    { name: 'Next.js', icon: faNext.js, color: '#010101' },
     { name: 'Python', icon: faPython, color: '#3776ab' },
     { name: 'JavaScript', icon: faJs, color: '#f0db4f' },
     { name: 'TypeScript', icon: faCode, color: '#3178c6' },
